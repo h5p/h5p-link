@@ -24,8 +24,38 @@ H5P.Link = (function ($) {
      * @param {jQuery} $container
      */
     this.attach = function ($container) {
-      $container.addClass('h5p-link').html('<a href="' + parameters.url + '" target="_blank">' + parameters.title + '</a>');
-    };  
+      var sanitizedUrl = sanitizeUrlProtocol(parameters.url);
+      $container.addClass('h5p-link').html('<a href="' + sanitizedUrl + '" target="_blank">' + parameters.title + '</a>');
+    };
+
+    /**
+     * Private. Remove illegal url protocols from uri
+     */
+    var sanitizeUrlProtocol = function(uri) {
+      var allowedProtocols = ['http', 'https', 'ftp', 'irc', 'mailto', 'news', 'nntp', 'rtsp', 'sftp', 'ssh', 'tel', 'telnet', 'webcal'];
+      
+      var first = true;
+      var before = '';
+      while (first || uri != before) {
+        first = false;
+        before = uri;
+        var colonPos = uri.indexOf(':');
+        if (colonPos > 0) {
+          // We found a possible protocol
+          var protocol = uri.substr(0, colonPos);
+          // If the colon is preceeded by a hash, slash or question mark it isn't a protocol
+          if (protocol.match(/[/?#]/g)) {
+            break;
+          }
+          // Is this a forbidden protocol?
+          if (allowedProtocols.indexOf(protocol.toLowerCase()) == -1) {
+            // If illegal, remove the protocol...
+            uri = uri.substr(colonPos + 1);
+          }
+        }
+      }
+      return uri;
+    } 
   };
 
   return Link;
