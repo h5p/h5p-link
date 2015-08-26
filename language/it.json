@@ -4,7 +4,29 @@
       "label": "Titolo"
     },
     {
-      "label": "URL"
+      "fields": [
+        {
+          "label": "Protocollo",
+          "options": [
+            {
+              "value": "http://",
+              "label": "http://"
+            },
+            {
+              "value": "https://",
+              "label": "https://"
+            },
+            {
+              "value": "/",
+              "label": "(relativo)"
+            }
+          ],
+          "default": "http://"
+        },
+        {
+          "label": "URL"
+        }
+      ]
     }
   ]
 }
