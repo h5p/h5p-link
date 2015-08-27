@@ -24,7 +24,7 @@
           },
           {
             "value": "/",
-            "label": "(relative)"
+            "label": "(root relative)"
           }
         ],
         "default": "http://"
