@@ -16,7 +16,7 @@ H5PUpgrades['H5P.Link'] = (function ($) {
        */
       1: function (parameters, finished) {
         var allowedProtocols = ['http://', 'https://', '/'];
-        var urlProtocol = '';
+        var urlProtocol;
         var url = parameters.url;
 
         // Check if url had any allowed protocols
@@ -29,9 +29,12 @@ H5PUpgrades['H5P.Link'] = (function ($) {
 
         // Set new link widget parameters
         parameters.linkWidget = {
-          protocol: urlProtocol,
           url: url
         };
+
+        if (urlProtocol) {
+          parameters.linkWidget.protocol = urlProtocol;
+        }
 
         //Remove old url
         delete parameters.url;
