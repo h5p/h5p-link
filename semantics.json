@@ -27,6 +27,7 @@
             "label": "(root relative)"
           }
         ],
+        "optional": true,
         "default": "http://"
       },
       {

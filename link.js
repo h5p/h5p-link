@@ -16,8 +16,8 @@ H5P.Link = (function ($) {
     parameters = $.extend(true, {
       title: 'New link',
       linkWidget: {
-        protocol: 'http://',
-        url: 'h5p.org'
+        protocol: '',
+        url: ''
       }
     }, parameters);
 
