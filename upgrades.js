@@ -34,6 +34,8 @@ H5PUpgrades['H5P.Link'] = (function ($) {
 
         if (urlProtocol) {
           parameters.linkWidget.protocol = urlProtocol;
+        } else {
+          parameters.linkWidget.protocol = 'other';
         }
 
         //Remove old url

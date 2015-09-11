@@ -25,6 +25,10 @@
           {
             "value": "/",
             "label": "(root relative)"
+          },
+          {
+            "value": "other",
+            "label": "other"
           }
         ],
         "optional": true,
