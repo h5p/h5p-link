@@ -17,7 +17,7 @@ H5PUpgrades['H5P.Link'] = (function ($) {
       1: function (parameters, finished) {
         var allowedProtocols = ['http://', 'https://', '/'];
         var urlProtocol;
-        var url = parameters.url;
+        var url = parameters.url || '';
 
         // Check if url had any allowed protocols
         allowedProtocols.forEach(function (protocol) {
