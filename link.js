@@ -21,7 +21,11 @@ H5P.Link = (function ($) {
       }
     }, parameters);
 
-    var url = parameters.linkWidget.protocol + parameters.linkWidget.url;
+    var url = '';
+    if (parameters.linkWidget.protocol !== 'other') {
+       url += parameters.linkWidget.protocol;
+    }
+    url += parameters.linkWidget.url;
 
     /**
      * Public. Attach.
