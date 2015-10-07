@@ -13,19 +13,37 @@ H5P.Link = (function ($) {
    */
   function Link(parameters, id) {
     // Add default parameters
-    parameters = $.extend({
+    parameters = $.extend(true, {
       title: 'New link',
-      url: 'http://h5p.org'
+      linkWidget: {
+        protocol: '',
+        url: ''
+      }
     }, parameters);
-  
+
+    var url = '';
+    if (parameters.linkWidget.protocol !== 'other') {
+       url += parameters.linkWidget.protocol;
+    }
+    url += parameters.linkWidget.url;
+
     /**
      * Public. Attach.
      *
      * @param {jQuery} $container
      */
     this.attach = function ($container) {
-      var sanitizedUrl = sanitizeUrlProtocol(parameters.url);
+      var sanitizedUrl = sanitizeUrlProtocol(url);
       $container.addClass('h5p-link').html('<a href="' + sanitizedUrl + '" target="_blank">' + parameters.title + '</a>');
+    };
+
+    /**
+     * Return url
+     *
+     * @returns {string}
+     */
+    this.getUrl = function () {
+      return url;
     };
 
     /**
@@ -33,7 +51,7 @@ H5P.Link = (function ($) {
      */
     var sanitizeUrlProtocol = function(uri) {
       var allowedProtocols = ['http', 'https', 'ftp', 'irc', 'mailto', 'news', 'nntp', 'rtsp', 'sftp', 'ssh', 'tel', 'telnet', 'webcal'];
-      
+
       var first = true;
       var before = '';
       while (first || uri != before) {
@@ -55,8 +73,8 @@ H5P.Link = (function ($) {
         }
       }
       return uri;
-    } 
-  };
+    };
+  }
 
   return Link;
 })(H5P.jQuery);
