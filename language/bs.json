@@ -9,19 +9,18 @@
           "label":"Protokol",
           "options":[
             {
-              "label":"http://"
+              
             },
             {
-              "label":"https://"
+              
             },
             {
-              "label":"(u odnosu na)"
+              
             },
             {
-              "label":"ostalo"
+              
             }
-          ],
-          "default":"http://"
+          ]
         },
         {
           "label":"URL"
