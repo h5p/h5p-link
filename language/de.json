@@ -9,19 +9,18 @@
           "label":"Protokoll",
           "options":[
             {
-              "label":"http://"
+              
             },
             {
-              "label":"https://"
+              
             },
             {
-              "label":"(relativ zum Hauptverzeichnis)"
+              
             },
             {
-              "label":"anderes"
+              
             }
-          ],
-          "default":"http://"
+          ]
         },
         {
           "label":"URL"
