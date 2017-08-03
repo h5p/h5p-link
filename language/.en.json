@@ -1,24 +1,24 @@
 {
   "semantics": [
     {
-      "label": "Titolo"
+      "label": "Title"
     },
     {
       "fields": [
         {
-          "label": "Protocollo",
+          "label": "Protocol",
           "options": [
             {
-              "value": "http://",
               "label": "http://"
             },
             {
-              "value": "https://",
               "label": "https://"
             },
             {
-              "value": "/",
-              "label": "(relativo)"
+              "label": "(root relative)"
+            },
+            {
+              "label": "other"
             }
           ],
           "default": "http://"

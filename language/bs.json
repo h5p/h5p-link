@@ -1,24 +1,24 @@
 {
   "semantics": [
     {
-      "label": "Titolo"
+      "label": "Naziv"
     },
     {
       "fields": [
         {
-          "label": "Protocollo",
+          "label": "Protokol",
           "options": [
             {
-              "value": "http://",
               "label": "http://"
             },
             {
-              "value": "https://",
               "label": "https://"
             },
             {
-              "value": "/",
-              "label": "(relativo)"
+              "label": "(u odnosu na)"
+            },
+            {
+              "label": "ostalo"
             }
           ],
           "default": "http://"
