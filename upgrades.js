@@ -2,7 +2,7 @@
 /** @namespace H5PUpgrades */
 var H5PUpgrades = H5PUpgrades || {};
 
-H5PUpgrades['H5P.Link'] = (function ($) {
+H5PUpgrades['H5P.Link'] = (function () {
   return {
     1: {
       /**
@@ -46,4 +46,4 @@ H5PUpgrades['H5P.Link'] = (function ($) {
       }
     }
   };
-})(H5P.jQuery);
+})();
