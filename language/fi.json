@@ -1,12 +1,12 @@
 {
   "semantics":[
     {
-      "label":"Title"
+      "label":"Linkkiteksti"
     },
     {
       "fields":[
         {
-          "label":"Protocol",
+          "label":"Protokolla",
           "options":[
             {
               "label":"http://"
@@ -15,16 +15,16 @@
               "label":"https://"
             },
             {
-              "label":"(root relative)"
+              "label":"(suhteessa juureen)"
             },
             {
-              "label":"other"
+              "label":"muu"
             }
           ],
           "default":"http://"
         },
         {
-          "label":"URL"
+          "label":"Osoite"
         }
       ]
     }
