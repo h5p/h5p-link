@@ -9,9 +9,8 @@ H5P.Link = (function ($) {
    * Link constructor.
    *
    * @param {Object} parameters
-   * @param {Number} id
    */
-  function Link(parameters, id) {
+  function Link(parameters) {
     // Add default parameters
     parameters = $.extend(true, {
       title: 'New link',
