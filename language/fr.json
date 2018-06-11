@@ -1,30 +1,30 @@
 {
-  "semantics":[
+  "semantics": [
     {
-      "label":"Titre"
+      "label": "Titre"
     },
     {
-      "fields":[
+      "fields": [
         {
-          "label":"Protocole",
-          "options":[
+          "label": "Protocole",
+          "options": [
             {
-              "label":"http://"
+              "label": "http://"
             },
             {
-              "label":"https://"
+              "label": "https://"
             },
             {
-              "label":"(root relative)"
+              "label": "(chemin relatif depuis la racine)"
             },
             {
-              "label":"other"
+              "label": "autre"
             }
           ],
-          "default":"http://"
+          "default": "http://"
         },
         {
-          "label":"URL"
+          "label": "URL"
         }
       ]
     }
