@@ -5,6 +5,7 @@
   "minorVersion": 3,
   "patchVersion": 6,
   "runnable": 0,
+  "metaData": 0,
   "machineName": "H5P.Link",
   "author": "Joubel",
   "preloadedJs": [
