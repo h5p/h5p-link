@@ -1,12 +1,12 @@
 {
   "semantics": [
     {
-      "label": "Title"
+      "label": "Pealkiri"
     },
     {
       "fields": [
         {
-          "label": "Protocol",
+          "label": "Protokoll",
           "options": [
             {
               "label": "http://"
@@ -15,15 +15,15 @@
               "label": "https://"
             },
             {
-              "label": "(root relative)"
+              "label": "(tüvest sõltuv)"
             },
             {
-              "label": "other"
+              "label": "muu"
             }
           ]
         },
         {
-          "label": "URL"
+          "label": "Link"
         }
       ]
     }
