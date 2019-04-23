@@ -1,12 +1,12 @@
 {
   "semantics": [
     {
-      "label": "Title"
+      "label": "Заголовок"
     },
     {
       "fields": [
         {
-          "label": "Protocol",
+          "label": "Протокол",
           "options": [
             {
               "label": "http://"
@@ -15,10 +15,10 @@
               "label": "https://"
             },
             {
-              "label": "(root relative)"
+              "label": "(относительный путь)"
             },
             {
-              "label": "other"
+              "label": "другой"
             }
           ]
         },
