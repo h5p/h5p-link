@@ -15,10 +15,10 @@
               "label": "https://"
             },
             {
-              "label": "(root relative)"
+              "label": "(relativer Pfad auf aktueller Domain)"
             },
             {
-              "label": "other"
+              "label": "anderes"
             }
           ]
         },
