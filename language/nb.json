@@ -15,10 +15,10 @@
               "label": "https://"
             },
             {
-              "label": "(root relative)"
+              "label": "(relativ til roten)"
             },
             {
-              "label": "other"
+              "label": "annen"
             }
           ]
         },
