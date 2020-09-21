@@ -1,7 +1,7 @@
 {
   "semantics": [
     {
-      "label": "Title"
+      "label": "Titel"
     },
     {
       "fields": [
@@ -15,10 +15,10 @@
               "label": "https://"
             },
             {
-              "label": "(root relative)"
+              "label": "(t.o.v. root)"
             },
             {
-              "label": "other"
+              "label": "anders"
             }
           ]
         },
