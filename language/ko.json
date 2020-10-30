@@ -6,7 +6,7 @@
     {
       "fields": [
         {
-          "label": "프로토콜"
+          "label": "프로토콜",
           "options": [
             {
               "label": "http://"
