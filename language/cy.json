@@ -1,7 +1,7 @@
 {
   "semantics": [
     {
-      "label": "Títol"
+      "label": "Teitl"
     },
     {
       "fields": [
@@ -15,10 +15,10 @@
               "label": "https://"
             },
             {
-              "label": "(root relative)"
+              "label": "(cymharol i'r gwraidd)"
             },
             {
-              "label": "altres"
+              "label": "arall"
             }
           ]
         },
