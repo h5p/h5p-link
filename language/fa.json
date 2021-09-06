@@ -1,12 +1,12 @@
 {
   "semantics": [
     {
-      "label": "Tiêu đề"
+      "label": "عنوان"
     },
     {
       "fields": [
         {
-          "label": "Giao thức",
+          "label": "پروتکول",
           "options": [
             {
               "label": "http://"
@@ -18,7 +18,7 @@
               "label": "(root relative)"
             },
             {
-              "label": "khác"
+              "label": "سایر"
             }
           ]
         },
