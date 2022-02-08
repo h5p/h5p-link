@@ -1,12 +1,12 @@
 {
   "semantics": [
     {
-      "label": "დასახელება"
+      "label": "Nosaukums"
     },
     {
       "fields": [
         {
-          "label": "პროტოკოლი",
+          "label": "Protokols",
           "options": [
             {
               "label": "http://"
@@ -15,10 +15,10 @@
               "label": "https://"
             },
             {
-              "label": "(ძირითადი ჰიპერბმული)"
+              "label": "(relatīvais ceļš)"
             },
             {
-              "label": "სხვა"
+              "label": "cits"
             }
           ]
         },
