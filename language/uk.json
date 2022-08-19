@@ -1,12 +1,12 @@
 {
   "semantics": [
     {
-      "label": "Titel"
+      "label": "Заголовок"
     },
     {
       "fields": [
         {
-          "label": "Protokol",
+          "label": "Протокол",
           "options": [
             {
               "label": "http://"
@@ -15,10 +15,10 @@
               "label": "https://"
             },
             {
-              "label": "(wortel relatief)"
+              "label": "(відносний шлях)"
             },
             {
-              "label": "ander"
+              "label": "інший"
             }
           ]
         },

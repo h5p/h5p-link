@@ -1,12 +1,12 @@
 {
   "semantics": [
     {
-      "label": "Titel"
+      "label": "Título"
     },
     {
       "fields": [
         {
-          "label": "Protokol",
+          "label": "Protocolo",
           "options": [
             {
               "label": "http://"
@@ -15,10 +15,10 @@
               "label": "https://"
             },
             {
-              "label": "(wortel relatief)"
+              "label": "(raiz relativa)"
             },
             {
-              "label": "ander"
+              "label": "outro"
             }
           ]
         },

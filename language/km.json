@@ -1,12 +1,12 @@
 {
   "semantics": [
     {
-      "label": "Titel"
+      "label": "ចំណងជើង"
     },
     {
       "fields": [
         {
-          "label": "Protokol",
+          "label": "ព្រូតូកូល",
           "options": [
             {
               "label": "http://"
@@ -15,15 +15,15 @@
               "label": "https://"
             },
             {
-              "label": "(wortel relatief)"
+              "label": "(ធៀបនឹងទីតាំងដើម)"
             },
             {
-              "label": "ander"
+              "label": "ផ្សេង"
             }
           ]
         },
         {
-          "label": "URL"
+          "label": "តំណ URL"
         }
       ]
     }

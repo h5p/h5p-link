@@ -1,12 +1,12 @@
 {
   "semantics": [
     {
-      "label": "Titel"
+      "label": "Pavadinimas"
     },
     {
       "fields": [
         {
-          "label": "Protokol",
+          "label": "Protokolas",
           "options": [
             {
               "label": "http://"
@@ -15,10 +15,10 @@
               "label": "https://"
             },
             {
-              "label": "(wortel relatief)"
+              "label": "(reliatyvus pagrindui)"
             },
             {
-              "label": "ander"
+              "label": "kita"
             }
           ]
         },
