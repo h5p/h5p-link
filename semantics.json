@@ -35,7 +35,7 @@
           }
         ],
         "optional": true,
-        "default": "http://"
+        "default": "https://"
       },
       {
         "name": "url",
