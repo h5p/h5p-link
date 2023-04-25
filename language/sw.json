@@ -1,12 +1,12 @@
 {
   "semantics": [
     {
-      "label": "Pavadinimas"
+      "label": "Mada"
     },
     {
       "fields": [
         {
-          "label": "Protokolas",
+          "label": "Itifaki",
           "options": [
             {
               "label": "http://"
@@ -15,10 +15,10 @@
               "label": "https://"
             },
             {
-              "label": "(šakninis reliatyvus)"
+              "label": "(jamaa wa mizizi)"
             },
             {
-              "label": "kitas"
+              "label": "nyingine"
             }
           ]
         },
