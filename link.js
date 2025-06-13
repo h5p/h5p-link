@@ -33,7 +33,7 @@ H5P.Link = (function ($) {
      */
     this.attach = function ($container) {
       var sanitizedUrl = sanitizeUrlProtocol(url);
-      $container.addClass('h5p-link').html('<a href="' + sanitizedUrl + '" target="_blank">' + parameters.title + '</a>')
+      $container.addClass('h5p-link h5p-theme').html('<a href="' + sanitizedUrl + '" target="_blank">' + parameters.title + '</a>')
                 .keypress(function (event) {
                   if (event.which === 32) {
                     this.click();
