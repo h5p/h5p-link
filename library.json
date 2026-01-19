@@ -10,10 +10,6 @@
     "disableExtraTitleField": 1
   },
   "machineName": "H5P.Link",
-  "coreApi": {
-    "majorVersion": 1,
-    "minorVersion": 28
-  },
   "author": "Joubel",
   "preloadedJs": [
     {
