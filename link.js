@@ -24,7 +24,7 @@ H5P.Link = (function ($) {
     if (parameters.linkWidget.protocol !== 'other') {
        url += parameters.linkWidget.protocol;
     }
-    url += parameters.linkWidget.url;
+    url += parameters.linkWidget.url.replace(/&amp;/g, '&');
 
     /**
      * Public. Attach.
