@@ -1,7 +1,7 @@
 {
   "semantics": [
     {
-      "label": "Title"
+      "label": "Titlu"
     },
     {
       "fields": [
@@ -15,10 +15,10 @@
               "label": "https://"
             },
             {
-              "label": "(root relative)"
+              "label": "(relativ la rădăcină)"
             },
             {
-              "label": "other"
+              "label": "altul"
             }
           ]
         },

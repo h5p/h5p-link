@@ -6,7 +6,7 @@
     {
       "fields": [
         {
-          "label": "Protocol",
+          "label": "Protokoll",
           "options": [
             {
               "label": "http://"
@@ -15,10 +15,10 @@
               "label": "https://"
             },
             {
-              "label": "(root relative)"
+              "label": "(sti)"
             },
             {
-              "label": "other"
+              "label": "anna"
             }
           ]
         },
