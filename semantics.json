@@ -44,5 +44,13 @@
         "label": "URL"
       }
     ]
+  },
+  {
+    "name": "sameWindow",
+    "type": "boolean",
+    "label": "Open link in same window",
+    "default": false,
+    "optional": true,
+    "description": "Check if the link should open in same window/tab instead of a new window/tab"
   }
 ]
